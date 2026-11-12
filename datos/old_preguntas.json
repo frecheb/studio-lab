@@ -1,0 +1,1527 @@
+{
+  "titulo": "Tema 2: Evaluación de entornos integrados de desarrollo",
+  "descripcion": "Cuestionario actualizado de 100 preguntas elaborado a partir del documento ENDE T2V2. Incluye conceptos generales, IDE históricos y actuales, Java, depuración, profiling, documentación, plugins, licencias y productividad.",
+  "preguntas": [
+    {
+      "id": 1,
+      "tipo": "test",
+      "enunciado": "¿Qué significan las siglas IDE?",
+      "opciones": [
+        "Integrated Development Environment",
+        "Internet Development Engine",
+        "Integrated Data Editor",
+        "Internal Development Extension"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "IDE significa Integrated Development Environment, es decir, entorno de desarrollo integrado."
+    },
+    {
+      "id": 2,
+      "tipo": "test",
+      "enunciado": "¿Cuál es la finalidad principal de un entorno de desarrollo integrado?",
+      "opciones": [
+        "Administrar únicamente bases de datos",
+        "Reunir herramientas para desarrollar aplicaciones",
+        "Sustituir al sistema operativo",
+        "Convertir cualquier programa en una página web"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Un IDE reúne herramientas de trabajo para facilitar la creación, edición, ejecución y mantenimiento de aplicaciones."
+    },
+    {
+      "id": 3,
+      "tipo": "multiple",
+      "enunciado": "¿Qué herramientas pueden formar parte de un IDE según el tema?",
+      "opciones": [
+        "Editor",
+        "Compilador o intérprete",
+        "Depurador",
+        "Gestor de correo electrónico"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema identifica editor, compilador o intérprete y depurador; también menciona el constructor de interfaces gráficas."
+    },
+    {
+      "id": 4,
+      "tipo": "test",
+      "enunciado": "¿Qué función realiza normalmente el editor de un IDE?",
+      "opciones": [
+        "Ejecutar consultas SQL en un servidor",
+        "Colorear la sintaxis y facilitar la edición del código",
+        "Crear automáticamente máquinas virtuales",
+        "Gestionar exclusivamente usuarios"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El editor puede colorear la sintaxis y ayudar a comprender y detectar errores en el código."
+    },
+    {
+      "id": 5,
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta permite ejecutar un programa paso a paso e inspeccionar variables?",
+      "opciones": [
+        "Profiler",
+        "Constructor de interfaces",
+        "Depurador",
+        "Javadoc"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "El depurador permite ejecutar el programa paso a paso e inspeccionar valores de variables."
+    },
+    {
+      "id": 6,
+      "tipo": "multiple",
+      "enunciado": "¿Qué tareas se asocian a los complementos o plugins de un IDE?",
+      "opciones": [
+        "Añadir soporte para nuevos lenguajes",
+        "Integrar herramientas como Git",
+        "Modificar o ampliar funcionalidades",
+        "Sustituir obligatoriamente el compilador"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Los plugins amplían las funcionalidades del IDE sin modificar sus partes principales."
+    },
+    {
+      "id": 7,
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denomina el entorno donde el programador dispone de las herramientas de trabajo necesarias?",
+      "criterios": [
+        [
+          "entorno de desarrollo integrado",
+          "ide"
+        ]
+      ],
+      "explicacion": "El IDE es el entorno de desarrollo integrado."
+    },
+    {
+      "id": 8,
+      "tipo": "test",
+      "enunciado": "¿Qué empresa lanzó Turbo Pascal en 1983?",
+      "opciones": [
+        "Microsoft",
+        "Borland",
+        "Sun Microsystems",
+        "Apple"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Turbo Pascal fue lanzado por Borland en 1983."
+    },
+    {
+      "id": 9,
+      "tipo": "multiple",
+      "enunciado": "¿Qué características llegó a ofrecer Turbo Pascal en sus últimas versiones?",
+      "opciones": [
+        "Uso del ratón",
+        "Múltiples archivos en distintas ventanas",
+        "Programación orientada a objetos",
+        "Ejecución exclusiva en navegadores web"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema señala que las últimas versiones admitían ratón, múltiples archivos y programación orientada a objetos."
+    },
+    {
+      "id": 10,
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta de Turbo Pascal permitía optimizar el código?",
+      "opciones": [
+        "Turbo Profiler",
+        "Javadoc",
+        "Live Share",
+        "JRE"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Turbo Profiler era una herramienta asociada a Turbo Pascal para optimizar el código."
+    },
+    {
+      "id": 11,
+      "tipo": "test",
+      "enunciado": "¿Qué paradigma de desarrollo popularizó Visual Basic 6 según el tema?",
+      "opciones": [
+        "Desarrollo dirigido por eventos",
+        "Programación lógica",
+        "Programación funcional pura",
+        "Desarrollo exclusivo para móviles"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Visual Basic 6 impulsó el paradigma RAD, desarrollo rápido de aplicaciones, con interfaces y eventos."
+    },
+    {
+      "id": 12,
+      "tipo": "corta",
+      "enunciado": "¿Qué significan las siglas RAD?",
+      "criterios": [
+        [
+          "rapid",
+          "rápido"
+        ],
+        [
+          "application",
+          "aplicaciones"
+        ],
+        [
+          "development",
+          "desarrollo"
+        ]
+      ],
+      "explicacion": "RAD significa Rapid Application Development, desarrollo rápido de aplicaciones."
+    },
+    {
+      "id": 13,
+      "tipo": "multiple",
+      "enunciado": "¿Qué tecnologías se citan para el acceso a bases de datos desde Visual Basic 6?",
+      "opciones": [
+        "DAO",
+        "RDO",
+        "ADO / ActiveX Data Objects",
+        "JVM"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema menciona DAO, RDO y ActiveX Data Objects (ADO) para el acceso a bases de datos."
+    },
+    {
+      "id": 14,
+      "tipo": "test",
+      "enunciado": "¿Qué entorno creó Borland como evolución de Turbo Pascal hacia Windows?",
+      "opciones": [
+        "Eclipse",
+        "Delphi",
+        "Xcode",
+        "Replit"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Delphi fue la evolución de Turbo Pascal hacia el sistema Windows."
+    },
+    {
+      "id": 15,
+      "tipo": "test",
+      "enunciado": "¿Cómo se llamaba el entorno de Delphi para Linux?",
+      "opciones": [
+        "Kylix",
+        "Gradle",
+        "NetBeans",
+        "Codespaces"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Delphi tuvo un hermano para Linux llamado Kylix, cuyo desarrollo se abandonó tras la versión 3.0."
+    },
+    {
+      "id": 16,
+      "tipo": "multiple",
+      "enunciado": "¿Qué elementos se destacan de Visual C++ en el tema?",
+      "opciones": [
+        "Programación en C y C++",
+        "Bibliotecas MFC",
+        "Framework .NET",
+        "Javadoc como compilador"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Visual C++ se presenta como un IDE para C y C++, con MFC y .NET."
+    },
+    {
+      "id": 17,
+      "tipo": "test",
+      "enunciado": "¿Para qué plataformas permite desarrollar aplicaciones Xcode?",
+      "opciones": [
+        "Android y Windows",
+        "iOS y macOS",
+        "Linux y Android",
+        "Solo páginas web"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Xcode es la herramienta de Apple para desarrollar aplicaciones destinadas a iOS y macOS."
+    },
+    {
+      "id": 18,
+      "tipo": "multiple",
+      "enunciado": "¿Qué lenguajes o tecnologías se mencionan en relación con Xcode?",
+      "opciones": [
+        "Swift",
+        "Objective-C",
+        "JavaScript como único lenguaje",
+        "C/C++"
+      ],
+      "correctas": [
+        0,
+        1,
+        3
+      ],
+      "explicacion": "Xcode permite programar en Swift y, en versiones anteriores, en Objective-C; también se mencionan C/C++."
+    },
+    {
+      "id": 19,
+      "tipo": "test",
+      "enunciado": "¿Qué característica destaca de Visual Studio Code?",
+      "opciones": [
+        "Es un editor multiplataforma, rápido y ligero",
+        "Solo funciona en macOS",
+        "Es exclusivamente un compilador Java",
+        "No admite extensiones"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "VS Code es un editor multiplataforma para Linux, Windows y macOS, conocido por ser rápido y ligero."
+    },
+    {
+      "id": 20,
+      "tipo": "multiple",
+      "enunciado": "¿Qué funcionalidades de Visual Studio Code se describen en el tema?",
+      "opciones": [
+        "Marketplace de extensiones",
+        "Integración con Git",
+        "Colaboración en tiempo real mediante Live Share",
+        "Compilación obligatoria de todos los lenguajes sin extensiones"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema destaca Marketplace, Git y Live Share."
+    },
+    {
+      "id": 21,
+      "tipo": "test",
+      "enunciado": "¿Qué característica de IntelliJ IDEA se destaca especialmente para Java y Kotlin?",
+      "opciones": [
+        "Su analizador inteligente y autocompletado",
+        "Su uso exclusivo como editor de imágenes",
+        "La ausencia de soporte para Git",
+        "Que solo funciona en la nube"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "IntelliJ IDEA destaca por su autocompletado inteligente y análisis del código."
+    },
+    {
+      "id": 22,
+      "tipo": "corta",
+      "enunciado": "¿Qué herramienta de gestión y automatización de proyectos se cita para Java, Kotlin y Android?",
+      "criterios": [
+        [
+          "gradle"
+        ]
+      ],
+      "explicacion": "Gradle es una herramienta de gestión y automatización de proyectos."
+    },
+    {
+      "id": 23,
+      "tipo": "multiple",
+      "enunciado": "¿Qué funcionalidades ofrece IntelliJ IDEA según el tema?",
+      "opciones": [
+        "Análisis de código en tiempo real",
+        "Refactorización avanzada",
+        "Soporte nativo para Git, Maven y Gradle",
+        "Generación de aplicaciones iOS sin herramientas adicionales"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "IntelliJ IDEA incorpora análisis inteligente, refactorización y soporte para herramientas habituales."
+    },
+    {
+      "id": 24,
+      "tipo": "test",
+      "enunciado": "¿Qué tipo de licencia tiene Eclipse?",
+      "opciones": [
+        "Propietaria",
+        "EPL, de código abierto",
+        "GPL exclusivamente",
+        "MIT exclusivamente"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Eclipse se distribuye bajo Eclipse Public License (EPL)."
+    },
+    {
+      "id": 25,
+      "tipo": "multiple",
+      "enunciado": "¿Qué características de Eclipse se indican en el documento?",
+      "opciones": [
+        "Es gratuito y multiplataforma",
+        "Permite gestionar varios proyectos mediante workspaces",
+        "Integra Git, Maven y Gradle",
+        "Solo permite editar código HTML"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Eclipse es un IDE abierto y multiplataforma, con workspaces e integración con herramientas de desarrollo."
+    },
+    {
+      "id": 26,
+      "tipo": "test",
+      "enunciado": "¿Qué IDE online se cita como uno de los más utilizados?",
+      "opciones": [
+        "Replit",
+        "Turbo Pascal",
+        "Delphi",
+        "Visual Basic 6"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema identifica Replit como uno de los IDE online más utilizados."
+    },
+    {
+      "id": 27,
+      "tipo": "multiple",
+      "enunciado": "¿Qué ventajas se atribuyen a los entornos de desarrollo online?",
+      "opciones": [
+        "Trabajo colaborativo",
+        "Repositorios comunes",
+        "Acceso desde distintos dispositivos",
+        "Mayor potencia local garantizada"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Los entornos online facilitan la colaboración, el uso de repositorios comunes y el trabajo desde distintos dispositivos."
+    },
+    {
+      "id": 28,
+      "tipo": "test",
+      "enunciado": "¿Con qué plataforma se integra completamente GitHub Codespaces?",
+      "opciones": [
+        "GitLab",
+        "GitHub",
+        "Bitbucket",
+        "SourceForge"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "GitHub Codespaces se integra con GitHub."
+    },
+    {
+      "id": 29,
+      "tipo": "test",
+      "enunciado": "¿Qué significa que un IDE sea propietario?",
+      "opciones": [
+        "Que su código fuente siempre es público",
+        "Que se distribuye en formato binario y no ofrece acceso al código fuente",
+        "Que no puede instalarse",
+        "Que siempre es gratuito"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema define el software propietario como software distribuido en formato binario, sin acceso al código fuente y con derechos restringidos."
+    },
+    {
+      "id": 30,
+      "tipo": "multiple",
+      "enunciado": "¿Qué IDE aparecen en la tabla del tema para Java?",
+      "opciones": [
+        "IntelliJ IDEA",
+        "Eclipse",
+        "NetBeans",
+        "WebStorm"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "La tabla incluye IntelliJ IDEA, Eclipse y NetBeans entre los IDE para Java."
+    },
+    {
+      "id": 31,
+      "tipo": "multiple",
+      "enunciado": "¿Qué herramientas aparecen en la tabla del tema para JavaScript?",
+      "opciones": [
+        "Visual Studio Code",
+        "WebStorm",
+        "Sublime Text",
+        "Turbo Pascal"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "La tabla enumera VS Code, WebStorm, Sublime Text, Cursor y Atom para JavaScript."
+    },
+    {
+      "id": 32,
+      "tipo": "test",
+      "enunciado": "¿Qué licencia se asocia a Visual Studio Code en la tabla?",
+      "opciones": [
+        "Código abierto (MIT)",
+        "EPL",
+        "Propietaria de pago",
+        "GPL versión 1"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "La tabla del tema identifica Visual Studio Code con licencia de código abierto MIT."
+    },
+    {
+      "id": 33,
+      "tipo": "test",
+      "enunciado": "¿Qué licencia se indica para Eclipse en la tabla comparativa?",
+      "opciones": [
+        "Apache 2.0",
+        "EPL",
+        "MIT",
+        "Propietaria"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Eclipse aparece con licencia gratuita EPL."
+    },
+    {
+      "id": 34,
+      "tipo": "test",
+      "enunciado": "¿Qué componente incluye el JDK además del compilador de Java?",
+      "opciones": [
+        "JRE y JVM",
+        "Solo el editor",
+        "Únicamente Javadoc",
+        "Git y Maven"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El JDK incluye el compilador de Java, el JRE y la JVM."
+    },
+    {
+      "id": 35,
+      "tipo": "corta",
+      "enunciado": "¿Qué significan las siglas JDK?",
+      "criterios": [
+        [
+          "java development kit",
+          "kit de desarrollo java"
+        ]
+      ],
+      "explicacion": "JDK significa Java Development Kit."
+    },
+    {
+      "id": 36,
+      "tipo": "corta",
+      "enunciado": "¿Qué significan las siglas JRE?",
+      "criterios": [
+        [
+          "java runtime environment",
+          "entorno de ejecucion java"
+        ]
+      ],
+      "explicacion": "JRE significa Java Runtime Environment."
+    },
+    {
+      "id": 37,
+      "tipo": "corta",
+      "enunciado": "¿Qué significan las siglas JVM?",
+      "criterios": [
+        [
+          "java virtual machine",
+          "maquina virtual java"
+        ]
+      ],
+      "explicacion": "JVM significa Java Virtual Machine."
+    },
+    {
+      "id": 38,
+      "tipo": "test",
+      "enunciado": "¿Qué componente necesita un desarrollador para compilar programas Java?",
+      "opciones": [
+        "JRE",
+        "JDK",
+        "JVM únicamente",
+        "Javadoc"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Para desarrollar y compilar programas Java se necesita el JDK."
+    },
+    {
+      "id": 39,
+      "tipo": "test",
+      "enunciado": "¿Qué componente necesita un equipo para ejecutar una aplicación Java?",
+      "opciones": [
+        "JRE",
+        "JDK obligatoriamente",
+        "Turbo Profiler",
+        "Maven"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El sistema donde se ejecuta un programa Java debe disponer del JRE, que incluye la JVM."
+    },
+    {
+      "id": 40,
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre JDK, JRE y JVM son correctas?",
+      "opciones": [
+        "El JDK se utiliza para desarrollar",
+        "El JRE se utiliza para ejecutar programas Java",
+        "La JVM ejecuta el código Java compilado",
+        "El JRE incluye necesariamente el compilador javac"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El JDK es para desarrollo; el JRE proporciona el entorno de ejecución y contiene la JVM."
+    },
+    {
+      "id": 41,
+      "tipo": "test",
+      "enunciado": "¿Qué afirmación describe la portabilidad de Java según el tema?",
+      "opciones": [
+        "Hay que compilar cada programa para cada sistema operativo",
+        "El programa compilado puede funcionar en distintos sistemas si disponen de la JVM correspondiente",
+        "Java solo funciona en Windows",
+        "La JVM es idéntica en todos los sistemas operativos"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Java es multiplataforma: el código compilado puede ejecutarse en sistemas con la JVM correspondiente, aunque cada sistema tiene una JVM diferente."
+    },
+    {
+      "id": 42,
+      "tipo": "test",
+      "enunciado": "¿Qué comando permite comprobar la versión de Java instalada?",
+      "opciones": [
+        "javac --version",
+        "java --version",
+        "git --version",
+        "javadoc --install"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema muestra el comando java --version para comprobar la instalación del entorno de ejecución."
+    },
+    {
+      "id": 43,
+      "tipo": "test",
+      "enunciado": "¿Qué comando permite comprobar la versión del compilador de Java?",
+      "opciones": [
+        "java --version",
+        "javac --version",
+        "jre --version",
+        "jdk --version"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El comando javac --version permite comprobar la versión del compilador."
+    },
+    {
+      "id": 44,
+      "tipo": "multiple",
+      "enunciado": "¿Qué comandos se muestran para preparar Java en Ubuntu?",
+      "opciones": [
+        "sudo apt-get update",
+        "sudo apt-get upgrade",
+        "sudo apt-get install default-jre",
+        "sudo apt-get install default-jdk"
+      ],
+      "correctas": [
+        0,
+        2,
+        3
+      ],
+      "explicacion": "El documento muestra estos comandos para actualizar el sistema e instalar JRE y JDK; también incluye sudo apt-get upgrade para actualizar paquetes."
+    },
+    {
+      "id": 45,
+      "tipo": "test",
+      "enunciado": "¿Qué comando instala el JRE predeterminado en Ubuntu según el tema?",
+      "opciones": [
+        "sudo apt-get install default-jre",
+        "sudo apt-get install default-jdk",
+        "sudo apt-get update-jre",
+        "java install jre"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El comando indicado para instalar el JRE es sudo apt-get install default-jre."
+    },
+    {
+      "id": 46,
+      "tipo": "test",
+      "enunciado": "¿Qué comando instala el JDK predeterminado en Ubuntu según el tema?",
+      "opciones": [
+        "sudo apt-get install default-jre",
+        "sudo apt-get install default-jdk",
+        "sudo apt-get upgrade-jdk",
+        "javac install"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El comando indicado para instalar el JDK es sudo apt-get install default-jdk."
+    },
+    {
+      "id": 47,
+      "tipo": "test",
+      "enunciado": "¿Cuál es el objetivo principal de depurar un programa?",
+      "opciones": [
+        "Aumentar el tamaño del ejecutable",
+        "Localizar fallos y comprobar el comportamiento del programa",
+        "Generar automáticamente una base de datos",
+        "Eliminar todos los comentarios"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "La depuración permite localizar fallos y comprobar que el programa se comporta correctamente."
+    },
+    {
+      "id": 48,
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denomina el punto de interrupción que detiene la ejecución en una línea concreta?",
+      "criterios": [
+        [
+          "breakpoint",
+          "punto de interrupcion"
+        ]
+      ],
+      "explicacion": "Un breakpoint es un punto de interrupción."
+    },
+    {
+      "id": 49,
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denominan las expresiones que permiten observar valores durante la depuración?",
+      "criterios": [
+        [
+          "watch",
+          "watches",
+          "expresiones de vigilancia"
+        ]
+      ],
+      "explicacion": "Las watches permiten observar expresiones y sus valores durante la depuración."
+    },
+    {
+      "id": 50,
+      "tipo": "multiple",
+      "enunciado": "¿Qué acciones permite realizar el depurador de un IDE?",
+      "opciones": [
+        "Habilitar o deshabilitar breakpoints",
+        "Ejecutar línea a línea",
+        "Continuar hasta el siguiente breakpoint",
+        "Cambiar automáticamente el algoritmo para hacerlo correcto"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El depurador permite controlar la ejecución, gestionar breakpoints y avanzar por el código."
+    },
+    {
+      "id": 51,
+      "tipo": "test",
+      "enunciado": "¿Qué tecla o acción se menciona para iniciar la depuración en Visual Studio Code?",
+      "opciones": [
+        "F1",
+        "F5",
+        "F12",
+        "Ctrl + P"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema indica que la depuración puede iniciarse con F5 o con el botón de depuración."
+    },
+    {
+      "id": 52,
+      "tipo": "test",
+      "enunciado": "¿Qué información aparece en la barra de depuración descrita en el tema?",
+      "opciones": [
+        "Variables locales y sus valores actuales",
+        "Únicamente el historial del navegador",
+        "Solo los archivos descargados",
+        "El listado de usuarios del sistema"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "La barra permite ver variables locales y sus valores, además de añadir expresiones para analizarlas."
+    },
+    {
+      "id": 53,
+      "tipo": "test",
+      "enunciado": "¿Qué es un profiler?",
+      "opciones": [
+        "Una herramienta para monitorizar el rendimiento de una aplicación",
+        "Un editor de diagramas UML",
+        "Un gestor de licencias",
+        "Un compilador de HTML"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Un profiler analiza aspectos del rendimiento, como CPU, memoria e hilos de ejecución."
+    },
+    {
+      "id": 54,
+      "tipo": "multiple",
+      "enunciado": "¿Qué aspectos puede monitorizar un profiler según el tema?",
+      "opciones": [
+        "Hilos de ejecución",
+        "Rendimiento de la CPU",
+        "Uso de memoria",
+        "Color de la interfaz del IDE"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema cita la monitorización de hilos, CPU y memoria."
+    },
+    {
+      "id": 55,
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta de NetBeans se menciona para analizar aplicaciones?",
+      "opciones": [
+        "Profiler",
+        "Javadoc",
+        "Live Share",
+        "Kylix"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "NetBeans incorpora una herramienta profiler para monitorizar el rendimiento de las aplicaciones."
+    },
+    {
+      "id": 56,
+      "tipo": "test",
+      "enunciado": "¿Qué extensión se cita para perfilar aplicaciones desde Visual Studio Code?",
+      "opciones": [
+        "Prettier",
+        "JProfiler",
+        "GitLens",
+        "Docker"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema menciona JProfiler como extensión para analizar CPU, memoria y subprocesos."
+    },
+    {
+      "id": 57,
+      "tipo": "test",
+      "enunciado": "¿Para qué sirve Javadoc?",
+      "opciones": [
+        "Compilar proyectos C++",
+        "Generar documentación HTML a partir de comentarios y textos del código Java",
+        "Depurar aplicaciones móviles",
+        "Gestionar plugins de VS Code"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Javadoc extrae textos y comentarios del código fuente Java y los transforma en páginas HTML."
+    },
+    {
+      "id": 58,
+      "tipo": "multiple",
+      "enunciado": "¿Qué información puede aparecer en la documentación generada automáticamente?",
+      "opciones": [
+        "Comentarios de documentación",
+        "Parámetros de entrada de métodos",
+        "Información de salida o retorno",
+        "Contraseñas del usuario"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "La documentación puede incluir comentarios y datos de los métodos, como parámetros y valores de retorno."
+    },
+    {
+      "id": 59,
+      "tipo": "test",
+      "enunciado": "¿Qué permiten los módulos o plugins en NetBeans?",
+      "opciones": [
+        "Ampliar sus capacidades y trabajar con otros lenguajes",
+        "Eliminar la necesidad de un sistema operativo",
+        "Convertirlo en un navegador",
+        "Impedir la creación de proyectos"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Los módulos permiten ampliar NetBeans, crear informes y trabajar con lenguajes distintos de Java."
+    },
+    {
+      "id": 60,
+      "tipo": "multiple",
+      "enunciado": "¿Qué plugins o extensiones se citan para Visual Studio Code y qué hacen?",
+      "opciones": [
+        "Python: soporte para Python e IntelliSense",
+        "GitHub Copilot: asistencia de programación mediante IA",
+        "Prettier: organización y formato del código",
+        "JProfiler: edición de imágenes"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El documento cita Python, GitHub Copilot y Prettier con esas funciones."
+    },
+    {
+      "id": 61,
+      "tipo": "test",
+      "enunciado": "¿Qué permite hacer la extensión Docker mencionada para VS Code?",
+      "opciones": [
+        "Gestionar contenedores",
+        "Generar documentación Java",
+        "Crear interfaces gráficas de iOS",
+        "Optimizar código Pascal"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Docker facilita la gestión de contenedores desde el editor."
+    },
+    {
+      "id": 62,
+      "tipo": "test",
+      "enunciado": "¿Qué funcionalidad aporta GitLens según el tema?",
+      "opciones": [
+        "Mejora las funciones de Git y ayuda a comprender el repositorio",
+        "Compila Java sin JDK",
+        "Crea aplicaciones para iOS",
+        "Genera documentación con Javadoc"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "GitLens amplía las funciones de Git y facilita comprender, escribir y revisar el código del repositorio."
+    },
+    {
+      "id": 63,
+      "tipo": "corta",
+      "enunciado": "¿Qué plugin se menciona para mantener el código organizado y con formato?",
+      "criterios": [
+        [
+          "prettier"
+        ]
+      ],
+      "explicacion": "Prettier ayuda a mantener el código organizado y ordenado."
+    },
+    {
+      "id": 64,
+      "tipo": "corta",
+      "enunciado": "¿Qué herramienta de documentación de Java transforma comentarios en páginas web?",
+      "criterios": [
+        [
+          "javadoc"
+        ]
+      ],
+      "explicacion": "Javadoc genera documentación HTML a partir de los comentarios del código."
+    },
+    {
+      "id": 65,
+      "tipo": "multiple",
+      "enunciado": "¿Qué tareas pueden facilitar los agentes CLI o asistentes de IA citados en el tema?",
+      "opciones": [
+        "Ayudar a programar mediante comandos o preguntas",
+        "Explicar código",
+        "Ofrecer pistas y ejercicios",
+        "Sustituir siempre las pruebas y la revisión humana"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema presenta agentes CLI como herramientas de ayuda, explicación, aprendizaje y programación."
+    },
+    {
+      "id": 66,
+      "tipo": "test",
+      "enunciado": "¿Qué agente CLI se menciona expresamente en relación con Visual Studio Code?",
+      "opciones": [
+        "Codex",
+        "Kylix",
+        "Javadoc",
+        "Turbo Profiler"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El documento propone instalar Codex como agente CLI en Visual Studio Code."
+    },
+    {
+      "id": 67,
+      "tipo": "test",
+      "enunciado": "¿Qué es el pair programming?",
+      "opciones": [
+        "Una técnica de programación colaborativa en la que dos personas trabajan juntas",
+        "Un sistema de compilación Java",
+        "Un tipo de licencia",
+        "Una herramienta para medir memoria"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema propone investigar pair programming como forma de colaboración durante el desarrollo."
+    },
+    {
+      "id": 68,
+      "tipo": "corta",
+      "enunciado": "¿Qué término inglés se utiliza para referirse a la depuración de código?",
+      "criterios": [
+        [
+          "debugging",
+          "depuracion"
+        ]
+      ],
+      "explicacion": "Debugging es el término inglés para depuración."
+    },
+    {
+      "id": 69,
+      "tipo": "multiple",
+      "enunciado": "¿Qué ventajas se atribuyen a los IDE online en el trabajo colaborativo?",
+      "opciones": [
+        "Compartir espacios o repositorios",
+        "Colaborar en tiempo real",
+        "Trabajar desde diferentes dispositivos",
+        "Necesitar siempre un equipo local de altas prestaciones"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema destaca colaboración, repositorios comunes y acceso desde distintos dispositivos."
+    },
+    {
+      "id": 70,
+      "tipo": "test",
+      "enunciado": "¿Qué opción se recomienda para instalar Visual Studio Code en Ubuntu según el apartado práctico?",
+      "opciones": [
+        "Únicamente compilarlo desde código fuente",
+        "Instalarlo desde el centro de software o el repositorio",
+        "Instalarlo mediante Javadoc",
+        "No es posible instalarlo en Ubuntu"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El documento indica que en Ubuntu puede instalarse desde el centro de software o el repositorio."
+    },
+    {
+      "id": 71,
+      "tipo": "test",
+      "enunciado": "¿Qué extensión de VS Code se propone instalar para probar una página HTML en un servidor local?",
+      "opciones": [
+        "Live Server",
+        "GitLens",
+        "JProfiler",
+        "Docker"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Live Server permite servir y probar una página web HTML desde el entorno de desarrollo."
+    },
+    {
+      "id": 72,
+      "tipo": "corta",
+      "enunciado": "¿Qué extensión de Visual Studio Code se utiliza en la actividad para servir páginas HTML localmente?",
+      "criterios": [
+        [
+          "live server"
+        ]
+      ],
+      "explicacion": "La extensión indicada es Live Server."
+    },
+    {
+      "id": 73,
+      "tipo": "test",
+      "enunciado": "¿Qué botón aparece habitualmente al usar Live Server para cargar y ejecutar la página?",
+      "opciones": [
+        "Go Live",
+        "Run Javadoc",
+        "Start JVM",
+        "Open Profiler"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El documento indica que suele aparecer el botón Go Live en la esquina inferior derecha."
+    },
+    {
+      "id": 74,
+      "tipo": "test",
+      "enunciado": "¿Qué atajo de VS Code se utiliza para formatear o indentar automáticamente el código?",
+      "opciones": [
+        "Ctrl + Mayúsculas + I",
+        "Ctrl + P",
+        "Ctrl + B",
+        "Ctrl + /"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema indica Ctrl + Mayúsculas + I para indentar automáticamente el código."
+    },
+    {
+      "id": 75,
+      "tipo": "test",
+      "enunciado": "¿Qué atajo permite buscar archivos en Visual Studio Code?",
+      "opciones": [
+        "Ctrl + P",
+        "Ctrl + B",
+        "Ctrl + /",
+        "Shift + Alt + A"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Ctrl + P permite buscar archivos."
+    },
+    {
+      "id": 76,
+      "tipo": "test",
+      "enunciado": "¿Qué atajo permite maximizar el espacio de trabajo en VS Code?",
+      "opciones": [
+        "Ctrl + B",
+        "Ctrl + P",
+        "Ctrl + Mayúsculas + I",
+        "F5"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Ctrl + B permite mostrar u ocultar la barra lateral y maximizar el espacio de trabajo."
+    },
+    {
+      "id": 77,
+      "tipo": "multiple",
+      "enunciado": "¿Qué atajos de VS Code se mencionan para comentar código?",
+      "opciones": [
+        "Ctrl + / para líneas",
+        "Shift + Alt + A para bloques",
+        "Ctrl + P para bloques",
+        "F5 para comentarios"
+      ],
+      "correctas": [
+        0,
+        1
+      ],
+      "explicacion": "El tema indica Ctrl + / para comentar líneas y Shift + Alt + A para comentar bloques."
+    },
+    {
+      "id": 78,
+      "tipo": "test",
+      "enunciado": "¿Qué opción de VS Code permite guardar automáticamente los cambios?",
+      "opciones": [
+        "Auto Save",
+        "Live Share",
+        "Profiler",
+        "Workspace"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "La actividad recomienda configurar Auto Save desde el menú File."
+    },
+    {
+      "id": 79,
+      "tipo": "test",
+      "enunciado": "¿Qué edición de IntelliJ IDEA se selecciona en la solución del punto de partida como entorno libre?",
+      "opciones": [
+        "Ultimate",
+        "Community Edition",
+        "Enterprise",
+        "WebStorm"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "La solución selecciona IntelliJ IDEA Community Edition como opción libre."
+    },
+    {
+      "id": 80,
+      "tipo": "multiple",
+      "enunciado": "¿Qué componente de Eclipse se identifica específicamente con las herramientas de desarrollo para Java?",
+      "opciones": [
+        "JDT (Java Development Tools)",
+        "JVM (Java Virtual Machine)",
+        "JRE (Java Runtime Environment)",
+        "Javadoc"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema destaca JDT, Java Development Tools, como uno de los componentes de Eclipse."
+    },
+    {
+      "id": 81,
+      "tipo": "multiple",
+      "enunciado": "¿Qué dos sistemas operativos se mencionan como destinos para las aplicaciones nativas creadas con Xcode?",
+      "opciones": [
+        "iOS",
+        "OS X",
+        "Ubuntu",
+        "Android"
+      ],
+      "correctas": [
+        0,
+        1
+      ],
+      "explicacion": "El documento indica que Xcode permite crear aplicaciones nativas para iOS y OS X."
+    },
+    {
+      "id": 82,
+      "tipo": "multiple",
+      "enunciado": "¿Qué características de Visual Studio Code se describen en el tema?",
+      "opciones": [
+        "Integración con Git",
+        "Colaboración en tiempo real mediante Live Share",
+        "Marketplace con extensiones",
+        "Autocompletado inteligente"
+      ],
+      "correctas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explicacion": "El tema menciona las cuatro características: integración con Git, Live Share, extensiones desde Marketplace y autocompletado inteligente."
+    },
+    {
+      "id": 83,
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta de Java extrae comentarios especiales del código fuente y genera documentación HTML?",
+      "opciones": [
+        "Gradle",
+        "Javadoc",
+        "JUnit",
+        "JDT"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Javadoc extrae los comentarios especiales del código Java y los transforma en páginas HTML."
+    },
+    {
+      "id": 84,
+      "tipo": "test",
+      "enunciado": "¿Qué tecnología señala el tema como la alternativa más rápida y optimizada para acceder a bases de datos desde Visual Basic 6?",
+      "opciones": [
+        "DAO",
+        "RDO",
+        "ADO",
+        "JDT"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "El tema cita DAO, RDO y ADO, y señala ADO como la alternativa más rápida y optimizada."
+    },
+    {
+      "id": 85,
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denomina el enfoque de desarrollo en el que primero se construye la interfaz y se valida con el usuario?",
+      "criterios": [
+        [
+          "rad",
+          "rapid application development",
+          "desarrollo rápido de aplicaciones"
+        ]
+      ],
+      "explicacion": "RAD significa Rapid Application Development o desarrollo rápido de aplicaciones."
+    },
+    {
+      "id": 86,
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta de Borland se desarrolló para Linux y estaba relacionada con Delphi?",
+      "opciones": [
+        "Kylix",
+        "JBuilder",
+        "Turbo Profiler",
+        "JDT"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Kylix fue la herramienta de Borland para Linux relacionada con Delphi."
+    },
+    {
+      "id": 87,
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre Kylix aparecen en el tema?",
+      "opciones": [
+        "Era una herramienta de Borland para Linux relacionada con Delphi.",
+        "Permitía recompilar en Linux programas creados para Windows y viceversa usando controles estándar.",
+        "Era el compilador de Java incluido en el JDK.",
+        "El proyecto se abandonó después de la versión 3.0."
+      ],
+      "correctas": [
+        0,
+        1,
+        3
+      ],
+      "explicacion": "El tema describe Kylix como una herramienta de Borland para Linux, capaz de recompilar programas entre Windows y Linux si se utilizaban controles estándar, y señala que se abandonó después de la versión 3.0."
+    },
+    {
+      "id": 88,
+      "tipo": "test",
+      "enunciado": "¿Qué entorno de desarrollo de Java lanzó Borland, además de Delphi?",
+      "opciones": [
+        "JBuilder",
+        "JDT",
+        "Javadoc",
+        "JProfiler"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Borland lanzó JBuilder, un IDE de Java que también estaba disponible para Linux."
+    },
+    {
+      "id": 89,
+      "tipo": "multiple",
+      "enunciado": "Según el tema, ¿qué bibliotecas o tecnologías se relacionan con Visual C++?",
+      "opciones": [
+        "Microsoft Foundation Classes (MFC)",
+        ".NET",
+        "DirectX",
+        "Javadoc"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Visual C++ se apoya en bibliotecas de Windows como MFC y .NET, y permite añadir bibliotecas como DirectX. Javadoc es una herramienta de documentación de Java."
+    },
+    {
+      "id": 90,
+      "tipo": "test",
+      "enunciado": "¿Qué mecanismo de .NET se menciona para gestionar la memoria?",
+      "opciones": [
+        "Recolector de basura (garbage collector)",
+        "Breakpoint",
+        "Profiler",
+        "Workspace"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema indica que .NET incluye un recolector de basura para gestionar la memoria."
+    },
+    {
+      "id": 91,
+      "tipo": "multiple",
+      "enunciado": "¿Qué elementos incluye el JDK según la tabla del tema?",
+      "opciones": [
+        "El compilador javac",
+        "El JRE",
+        "La JVM",
+        "El editor Visual Studio Code"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El JDK se utiliza para desarrollar aplicaciones Java e incluye javac, el JRE y la JVM."
+    },
+    {
+      "id": 92,
+      "tipo": "test",
+      "enunciado": "¿Qué comando permite comprobar la versión del compilador de Java?",
+      "opciones": [
+        "javac -version",
+        "java -version",
+        "sudo apt-get update",
+        "java --compile"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El comando javac -version muestra la versión del compilador de Java, si está instalado."
+    },
+    {
+      "id": 93,
+      "tipo": "multiple",
+      "enunciado": "¿Qué comandos aparecen en el tema para instalar el JRE y el JDK en Ubuntu?",
+      "opciones": [
+        "sudo apt-get install default-jre",
+        "sudo apt-get install default-jdk",
+        "sudo apt-get update",
+        "sudo apt-get upgrade"
+      ],
+      "correctas": [
+        0,
+        1
+      ],
+      "explicacion": "Los dos comandos install instalan, respectivamente, default-jre y default-jdk. El tema también muestra update y upgrade para actualizar el sistema y los paquetes."
+    },
+    {
+      "id": 94,
+      "tipo": "test",
+      "enunciado": "¿Qué tecla se indica como ejemplo para iniciar la depuración en Visual Studio Code?",
+      "opciones": [
+        "F5",
+        "F1",
+        "F2",
+        "F12"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema indica que en Visual Studio Code se puede iniciar la depuración, por ejemplo, mediante F5 o el botón de depuración."
+    },
+    {
+      "id": 95,
+      "tipo": "multiple",
+      "enunciado": "¿Qué acciones permite realizar la barra de depuración descrita en el tema?",
+      "opciones": [
+        "Continuar la ejecución",
+        "Detener o reiniciar la ejecución",
+        "Avanzar paso a paso",
+        "Cambiar la licencia del IDE"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "La barra permite continuar, detener o reiniciar la ejecución, avanzar paso a paso y desplazarse hasta el siguiente punto de ruptura."
+    },
+    {
+      "id": 96,
+      "tipo": "test",
+      "enunciado": "¿Qué permite analizar un profiler en una aplicación?",
+      "opciones": [
+        "Aspectos del rendimiento, como CPU, memoria e hilos",
+        "Únicamente la ortografía de los comentarios",
+        "La licencia de distribución del programa",
+        "El diseño visual de las ventanas"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Un profiler monitoriza el rendimiento de una aplicación y puede analizar el uso de CPU, memoria e hilos o subprocesos."
+    },
+    {
+      "id": 97,
+      "tipo": "multiple",
+      "enunciado": "¿Qué extensiones de Visual Studio Code se describen en el tema y qué función se les atribuye?",
+      "opciones": [
+        "Prettier: mantener el código organizado y formateado.",
+        "Docker: facilitar la gestión de contenedores.",
+        "GitLens: ampliar las funciones de Git y facilitar la revisión del código.",
+        "Javadoc: ejecutar contenedores Docker desde el editor."
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Prettier formatea el código, Docker facilita la gestión de contenedores y GitLens amplía las funciones de Git. Javadoc genera documentación HTML a partir de comentarios Java."
+    },
+    {
+      "id": 98,
+      "tipo": "multiple",
+      "enunciado": "¿Qué características se atribuyen a Eclipse en la comparativa de IDE para Java?",
+      "opciones": [
+        "Alta modularidad y flexibilidad.",
+        "Sistema de plugins amplio.",
+        "Integración con Maven y Gradle.",
+        "Es el entorno descrito como listo para usar y de configuración más sencilla."
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Eclipse destaca por su modularidad, flexibilidad, amplio sistema de plugins e integración con Maven y Gradle. El entorno señalado como listo para usar y sencillo de configurar es NetBeans."
+    },
+    {
+      "id": 99,
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denomina la máquina virtual que ejecuta el código Java compilado?",
+      "criterios": [
+        [
+          "jvm",
+          "java virtual machine",
+          "máquina virtual java",
+          "maquina virtual java"
+        ]
+      ],
+      "explicacion": "La JVM (Java Virtual Machine) ejecuta el código Java previamente compilado."
+    },
+    {
+      "id": 100,
+      "tipo": "corta",
+      "enunciado": "¿Qué herramienta de Java genera documentación HTML a partir de comentarios especiales del código?",
+      "criterios": [
+        [
+          "javadoc",
+          "java doc"
+        ]
+      ],
+      "explicacion": "Javadoc extrae los comentarios especiales del código Java y los transforma en páginas HTML."
+    }
+  ]
+}
