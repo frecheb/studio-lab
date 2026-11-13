@@ -1,0 +1,742 @@
+{
+  "titulo": "Entornos de Desarrollo · Tema 2 — Test de 50 preguntas",
+  "descripcion": "Cuestionario basado exclusivamente en Apuntes_ENDE_Tema_2_CORREGIDO.pdf. Distribución: 30 preguntas tipo test, 12 de selección múltiple y 8 de completar breve. Las 12 de selección múltiple se reparten por igual: 3 con una respuesta correcta, 3 con dos, 3 con tres y 3 con cuatro.",
+  "preguntas": [
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza principalmente a un IDE?",
+      "opciones": [
+        "Reúne en una aplicación herramientas para desarrollar software",
+        "Solo permite escribir código",
+        "Es un sistema operativo",
+        "Sustituye al lenguaje de programación"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Un IDE integra herramientas de edición, compilación o interpretación y depuración.",
+      "id": 1
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Para qué sirve el resaltado de sintaxis?",
+      "opciones": [
+        "Ejecutar el programa",
+        "Colorear partes del código para facilitar su lectura",
+        "Gestionar la memoria",
+        "Crear repositorios"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El resaltado de sintaxis diferencia visualmente las partes del código.",
+      "id": 2
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Cuál es la función principal de un depurador?",
+      "opciones": [
+        "Diseñar interfaces",
+        "Gestionar licencias",
+        "Controlar la ejecución para localizar fallos",
+        "Generar documentación"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "El depurador permite avanzar paso a paso e inspeccionar variables.",
+      "id": 3
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué elemento permite diseñar ventanas y botones con componentes visuales?",
+      "opciones": [
+        "Constructor de interfaces gráficas",
+        "Profiler",
+        "Repositorio",
+        "Compilador"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El constructor proporciona elementos visuales para crear interfaces.",
+      "id": 4
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Quién desarrolló Turbo Pascal y en qué año apareció?",
+      "opciones": [
+        "Microsoft en 1995",
+        "Apple en 1983",
+        "Borland en 1983",
+        "Sun Microsystems en 1991"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "Turbo Pascal fue desarrollado por Borland y lanzado en 1983.",
+      "id": 5
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta incorporaban las últimas versiones de Turbo Pascal para optimizar el código?",
+      "opciones": [
+        "Javadoc",
+        "Turbo Profiler",
+        "JDT",
+        "Live Share"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema destaca Turbo Profiler como herramienta para optimizar el código.",
+      "id": 6
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué enfoque introdujo Visual Basic 6 según el tema?",
+      "opciones": [
+        "Pair programming",
+        "RAD",
+        "Refactorización",
+        "Desarrollo con contenedores"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "RAD propone construir primero las interfaces y validarlas con el usuario.",
+      "id": 7
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué tecnología de acceso a bases de datos se señala como la más rápida y optimizada en Visual Basic 6?",
+      "opciones": [
+        "DAO",
+        "RDO",
+        "ADO",
+        "JDT"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "El tema señala ADO como alternativa más rápida y optimizada.",
+      "id": 8
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué relación existe entre Delphi y Turbo Pascal?",
+      "opciones": [
+        "Delphi fue la evolución de Turbo Pascal hacia Windows",
+        "Turbo Pascal fue una versión de Delphi para Linux",
+        "Ambos son plugins",
+        "Delphi sustituyó a Swift"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Delphi fue desarrollado por Borland como evolución de Turbo Pascal hacia Windows.",
+      "id": 9
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Para qué sistema operativo se creó Kylix?",
+      "opciones": [
+        "macOS",
+        "Linux",
+        "Android",
+        "Windows exclusivamente"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Kylix fue la herramienta de Borland para Linux relacionada con Delphi.",
+      "id": 10
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿En qué lenguajes está orientado Visual C++?",
+      "opciones": [
+        "Java y Kotlin",
+        "Swift y Objective-C",
+        "C y C++",
+        "JavaScript y TypeScript"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "Visual C++ está orientado a la programación en C y C++.",
+      "id": 11
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué son las MFC mencionadas en Visual C++?",
+      "opciones": [
+        "Bibliotecas de Windows",
+        "Un lenguaje de Apple",
+        "Un sistema de control de versiones",
+        "Un IDE online"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "MFC significa Microsoft Foundation Classes y son bibliotecas de Windows.",
+      "id": 12
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué herramienta de Apple se utiliza para desarrollar aplicaciones para sus dispositivos?",
+      "opciones": [
+        "Eclipse",
+        "Xcode",
+        "NetBeans",
+        "Replit"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Xcode es la herramienta de Apple para desarrollar aplicaciones destinadas a sus dispositivos.",
+      "id": 13
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué lenguaje se destaca para programar con versiones actuales de Xcode?",
+      "opciones": [
+        "Swift",
+        "Pascal",
+        "VBA",
+        "Delphi"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "El tema indica que las versiones actuales de Xcode permiten programar en Swift.",
+      "id": 14
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿En qué sistemas está disponible Visual Studio Code?",
+      "opciones": [
+        "Solo Windows",
+        "Windows y Linux",
+        "Linux, Windows y macOS",
+        "Solo macOS"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "VS Code es multiplataforma.",
+      "id": 15
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué función ofrece Live Share en Visual Studio Code?",
+      "opciones": [
+        "Generar documentación",
+        "Colaborar en tiempo real y facilitar la programación en pareja",
+        "Analizar CPU",
+        "Gestionar memoria"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Live Share facilita la colaboración en tiempo real y el pair programming.",
+      "id": 16
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Para qué lenguajes destaca IntelliJ IDEA?",
+      "opciones": [
+        "Java y Kotlin",
+        "C y Pascal",
+        "Swift y VBA",
+        "HTML y CSS exclusivamente"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "IntelliJ IDEA es muy utilizado por programadores de Java y Kotlin.",
+      "id": 17
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué componente destacado de Eclipse proporciona herramientas de desarrollo Java?",
+      "opciones": [
+        "MFC",
+        "JDT",
+        "ADO",
+        "RAD"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "JDT significa Java Development Tools.",
+      "id": 18
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué característica ofrece Replit?",
+      "opciones": [
+        "Solo funciona sin conexión",
+        "Soporta más de 50 lenguajes y permite colaboración en tiempo real",
+        "Es exclusivo de iOS",
+        "No incorpora agentes"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Replit es un IDE online con soporte para más de 50 lenguajes y colaboración.",
+      "id": 19
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a GitHub Codespaces?",
+      "opciones": [
+        "Entorno en la nube integrado con GitHub",
+        "Compilador oficial de Java",
+        "Plugin para generar HTML",
+        "Biblioteca de Windows"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Su principal ventaja es la integración directa con GitHub.",
+      "id": 20
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué suele caracterizar al software con licencia propietaria?",
+      "opciones": [
+        "Siempre permite modificar libremente el código",
+        "Suele distribuirse en binario y restringir el acceso al código fuente",
+        "Nunca tiene coste",
+        "Solo funciona en Linux"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema contrapone las restricciones habituales del software propietario al acceso al código de las licencias libres.",
+      "id": 21
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué modelo ofrece una versión gratuita y otras funcionalidades o ediciones de pago?",
+      "opciones": [
+        "Freemium",
+        "EPL",
+        "CDDL",
+        "GPL"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Freemium combina una versión gratuita con opciones de pago.",
+      "id": 22
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué componente de Java incluye el compilador javac?",
+      "opciones": [
+        "JRE",
+        "JVM",
+        "JDK",
+        "JDT"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "El compilador javac forma parte del JDK.",
+      "id": 23
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué componente proporciona el entorno necesario para ejecutar programas Java?",
+      "opciones": [
+        "JDK",
+        "JRE",
+        "Javadoc",
+        "JDT"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El JRE es el entorno de ejecución de Java e incluye la JVM.",
+      "id": 24
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué hace la JVM?",
+      "opciones": [
+        "Genera comentarios",
+        "Ejecuta el código Java previamente compilado",
+        "Gestiona plugins",
+        "Diseña interfaces"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "La JVM ejecuta el código Java compilado.",
+      "id": 25
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué comando permite comprobar la versión de Java y datos de la máquina virtual?",
+      "opciones": [
+        "javac -version",
+        "java -version",
+        "git --version",
+        "gradle -install"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "El tema indica java -version para consultar la versión de Java.",
+      "id": 26
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué comando permite comprobar la versión del compilador de Java?",
+      "opciones": [
+        "java -version",
+        "javadoc -version",
+        "javac -version",
+        "jre -version"
+      ],
+      "correctas": [
+        2
+      ],
+      "explicacion": "javac -version muestra la versión del compilador.",
+      "id": 27
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué es un breakpoint?",
+      "opciones": [
+        "Marca que detiene temporalmente la ejecución para inspeccionar el programa",
+        "Extensión que ordena el código",
+        "Archivo de Maven",
+        "Herramienta de documentación"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Un breakpoint o punto de ruptura permite detener la ejecución en una línea.",
+      "id": 28
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué es un watch durante la depuración?",
+      "opciones": [
+        "Una licencia",
+        "Una expresión o variable cuyo valor se observa",
+        "Un compilador",
+        "Un workspace"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Un watch permite consultar el valor de una expresión o variable.",
+      "id": 29
+    },
+    {
+      "tipo": "test",
+      "enunciado": "¿Qué analiza principalmente un profiler?",
+      "opciones": [
+        "El diseño visual",
+        "El rendimiento, como CPU, memoria e hilos",
+        "Las licencias",
+        "La ortografía"
+      ],
+      "correctas": [
+        1
+      ],
+      "explicacion": "Los profilers monitorizan aspectos del rendimiento de una aplicación.",
+      "id": 30
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué elementos puede integrar un IDE?",
+      "opciones": [
+        "Editor",
+        "Depurador",
+        "Constructor de interfaces gráficas",
+        "Plugins"
+      ],
+      "correctas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explicacion": "El tema enumera estos elementos entre las herramientas que puede integrar un IDE.",
+      "id": 31
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre Turbo Pascal son correctas?",
+      "opciones": [
+        "Fue desarrollado por Borland",
+        "Apareció en 1983",
+        "Sus últimas versiones permitían trabajar con varios archivos",
+        "Incorporó Turbo Profiler"
+      ],
+      "correctas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explicacion": "Todas aparecen en la descripción de Turbo Pascal.",
+      "id": 32
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre Visual Basic 6 son correctas?",
+      "opciones": [
+        "Introdujo el enfoque RAD",
+        "Permitía utilizar componentes de terceros",
+        "ADO se señala como alternativa más rápida y optimizada que DAO y RDO",
+        "Fue desarrollado por Apple"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "Visual Basic 6 se relaciona con RAD, componentes de terceros y las tecnologías DAO, RDO y ADO.",
+      "id": 33
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre los IDE actuales son correctas?",
+      "opciones": [
+        "Xcode es la herramienta de Apple",
+        "VS Code es multiplataforma",
+        "IntelliJ IDEA se utiliza especialmente con Java y Kotlin",
+        "Eclipse es de código abierto y gratuito"
+      ],
+      "correctas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explicacion": "Xcode, VS Code, IntelliJ IDEA y Eclipse aparecen con esas características en el tema.",
+      "id": 34
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué características de Visual Studio Code se mencionan?",
+      "opciones": [
+        "Integración con Git",
+        "Colaboración mediante Live Share",
+        "Marketplace de extensiones",
+        "Es exclusivo de macOS"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema destaca Git, Live Share y el Marketplace.",
+      "id": 35
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre los entornos online son correctas?",
+      "opciones": [
+        "Facilitan trabajar desde distintos dispositivos",
+        "Favorecen la colaboración",
+        "Pueden tener menor potencia que una instalación local",
+        "Siempre superan en potencia a los IDE locales"
+      ],
+      "correctas": [
+        0,
+        1,
+        2
+      ],
+      "explicacion": "El tema presenta accesibilidad y colaboración como ventajas, y menor potencia como posible contrapartida.",
+      "id": 36
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre licencias son correctas?",
+      "opciones": [
+        "EPL significa Eclipse Public License",
+        "CDDL se basa en la MPL según el glosario",
+        "Freemium combina versión gratuita y opciones de pago",
+        "La licencia propietaria garantiza acceso al código fuente"
+      ],
+      "correctas": [
+        0,
+        1
+      ],
+      "explicacion": "EPL y CDDL se definen en el glosario del tema.",
+      "id": 37
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué afirmaciones sobre JDK, JRE y JVM son correctas?",
+      "opciones": [
+        "JDK se utiliza para desarrollar aplicaciones Java",
+        "JDK incluye javac",
+        "JRE incluye la JVM",
+        "JVM genera documentación HTML"
+      ],
+      "correctas": [
+        0,
+        1
+      ],
+      "explicacion": "JDK se utiliza para desarrollar e incluye javac.",
+      "id": 38
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué acciones permite realizar el depurador?",
+      "opciones": [
+        "El depurador permite inspeccionar variables",
+        "Un watch permite observar valores durante la depuración",
+        "Un breakpoint genera documentación HTML",
+        "Un profiler crea interfaces gráficas"
+      ],
+      "correctas": [
+        0,
+        1
+      ],
+      "explicacion": "El depurador permite inspeccionar variables y un watch permite observar expresiones o variables.",
+      "id": 39
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Cuál de estas extensiones se menciona para Visual Studio Code?",
+      "opciones": [
+        "Python",
+        "GitHub Copilot",
+        "Prettier",
+        "Docker"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "GitHub Copilot aparece en la tabla de plugins habituales de VS Code.",
+      "id": 40
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué herramienta genera documentación HTML a partir de comentarios especiales del código Java?",
+      "opciones": [
+        "JUnit",
+        "Javadoc",
+        "Maven",
+        "Gradle"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Javadoc genera documentación HTML a partir de comentarios especiales.",
+      "id": 41
+    },
+    {
+      "tipo": "multiple",
+      "enunciado": "¿Qué herramienta se define como herramienta de gestión y automatización de proyectos Java?",
+      "opciones": [
+        "Maven",
+        "Javadoc",
+        "JDT",
+        "MFC"
+      ],
+      "correctas": [
+        0
+      ],
+      "explicacion": "Maven se define como herramienta de gestión y automatización de proyectos Java.",
+      "id": 42
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denomina el entorno de desarrollo integrado, según sus siglas en inglés?",
+      "criterios": [
+        [
+          "IDE"
+        ]
+      ],
+      "explicacion": "IDE significa Integrated Development Environment.",
+      "id": 43
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Qué enfoque de desarrollo se asocia a Visual Basic 6?",
+      "criterios": [
+        [
+          "RAD"
+        ]
+      ],
+      "explicacion": "Visual Basic 6 se relaciona con Rapid Application Development.",
+      "id": 44
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Cómo se llama la herramienta de Apple para desarrollar aplicaciones para sus dispositivos?",
+      "criterios": [
+        [
+          "Xcode"
+        ]
+      ],
+      "explicacion": "Xcode es la herramienta de desarrollo de Apple descrita en el tema.",
+      "id": 45
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Qué componente de Java incluye el compilador javac?",
+      "criterios": [
+        [
+          "JDK"
+        ]
+      ],
+      "explicacion": "El compilador javac forma parte del JDK.",
+      "id": 46
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Qué comando permite consultar la versión del compilador de Java?",
+      "criterios": [
+        [
+          "javac -version"
+        ]
+      ],
+      "explicacion": "El tema indica javac -version para comprobar el compilador.",
+      "id": 47
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Cómo se llama la marca que detiene temporalmente la ejecución durante la depuración?",
+      "criterios": [
+        [
+          "breakpoint"
+        ]
+      ],
+      "explicacion": "Breakpoint es el punto de ruptura usado para inspeccionar el programa.",
+      "id": 48
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Qué herramienta de Java genera documentación HTML a partir de comentarios especiales?",
+      "criterios": [
+        [
+          "Javadoc"
+        ]
+      ],
+      "explicacion": "Javadoc extrae comentarios especiales y genera páginas HTML.",
+      "id": 49
+    },
+    {
+      "tipo": "corta",
+      "enunciado": "¿Cómo se denomina la programación en pareja facilitada por Live Share?",
+      "criterios": [
+        [
+          "pair programming"
+        ]
+      ],
+      "explicacion": "Live Share facilita la colaboración en tiempo real o pair programming.",
+      "id": 50
+    }
+  ]
+}
