@@ -1,742 +1,566 @@
 {
-  "titulo": "Entornos de Desarrollo · Tema 2 — Test de 50 preguntas",
-  "descripcion": "Cuestionario basado exclusivamente en Apuntes_ENDE_Tema_2_CORREGIDO.pdf. Distribución: 30 preguntas tipo test, 12 de selección múltiple y 8 de completar breve. Las 12 de selección múltiple se reparten por igual: 3 con una respuesta correcta, 3 con dos, 3 con tres y 3 con cuatro.",
+  "titulo": "Sostenibilidad · UT1 y UT2 — Test de 35 preguntas",
+  "descripcion": "Cuestionario de 35 preguntas tipo test de respuesta única, basado en los apuntes de UT1 Retos ecosociales y huella del mundo digital y UT2 Sostenibilidad, criterios ASG y marcos internacionales. Incluye 18 preguntas de UT1 y 17 de UT2.",
   "preguntas": [
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué caracteriza principalmente a un IDE?",
+      "enunciado": "¿Qué se entiende por biocapacidad?",
       "opciones": [
-        "Reúne en una aplicación herramientas para desarrollar software",
-        "Solo permite escribir código",
-        "Es un sistema operativo",
-        "Sustituye al lenguaje de programación"
+        "La cantidad de residuos que genera una sociedad en un año",
+        "La capacidad de los ecosistemas para regenerar recursos y absorber CO₂ en un año",
+        "La demanda de minerales de la industria tecnológica",
+        "La cantidad de energía que consume una empresa"
       ],
       "correctas": [
-        0
+        1
       ],
-      "explicacion": "Un IDE integra herramientas de edición, compilación o interpretación y depuración.",
+      "explicacion": "La biocapacidad es lo que los ecosistemas pueden regenerar en un año, incluida su capacidad para absorber CO₂.",
       "id": 1
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Para qué sirve el resaltado de sintaxis?",
+      "enunciado": "¿Qué representa la huella ecológica?",
       "opciones": [
-        "Ejecutar el programa",
-        "Colorear partes del código para facilitar su lectura",
-        "Gestionar la memoria",
-        "Crear repositorios"
+        "La demanda humana de recursos y servicios de los ecosistemas en un año",
+        "La superficie de bosques protegidos de un país",
+        "La capacidad anual de regeneración de los ecosistemas",
+        "La cantidad de especies en peligro de extinción"
       ],
       "correctas": [
-        1
+        0
       ],
-      "explicacion": "El resaltado de sintaxis diferencia visualmente las partes del código.",
+      "explicacion": "La huella ecológica mide lo que la humanidad demanda de los ecosistemas en el mismo año.",
       "id": 2
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Cuál es la función principal de un depurador?",
+      "enunciado": "¿Cómo se denomina la situación en la que la huella ecológica supera la biocapacidad?",
       "opciones": [
-        "Diseñar interfaces",
-        "Gestionar licencias",
-        "Controlar la ejecución para localizar fallos",
-        "Generar documentación"
+        "Adaptación climática",
+        "Neutralidad ecológica",
+        "Extralimitación ecológica u overshoot",
+        "Economía circular"
       ],
       "correctas": [
         2
       ],
-      "explicacion": "El depurador permite avanzar paso a paso e inspeccionar variables.",
+      "explicacion": "La extralimitación ecológica se produce cuando la demanda humana supera la capacidad regenerativa del planeta.",
       "id": 3
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué elemento permite diseñar ventanas y botones con componentes visuales?",
+      "enunciado": "¿Cuántos procesos identifica el marco de los límites planetarios?",
       "opciones": [
-        "Constructor de interfaces gráficas",
-        "Profiler",
-        "Repositorio",
-        "Compilador"
+        "Cinco",
+        "Siete",
+        "Ocho",
+        "Nueve"
       ],
       "correctas": [
-        0
+        3
       ],
-      "explicacion": "El constructor proporciona elementos visuales para crear interfaces.",
+      "explicacion": "El marco de los límites planetarios identifica nueve procesos que mantienen estable el planeta.",
       "id": 4
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Quién desarrolló Turbo Pascal y en qué año apareció?",
+      "enunciado": "Según los apuntes, ¿cuál de estos factores es una de las principales causas de pérdida de biodiversidad?",
       "opciones": [
-        "Microsoft en 1995",
-        "Apple en 1983",
-        "Borland en 1983",
-        "Sun Microsystems en 1991"
+        "El cambio de usos del suelo, especialmente para agricultura",
+        "La reducción del transporte público",
+        "El uso de formatos de imagen modernos",
+        "La reparación de dispositivos electrónicos"
       ],
       "correctas": [
-        2
+        0
       ],
-      "explicacion": "Turbo Pascal fue desarrollado por Borland y lanzado en 1983.",
+      "explicacion": "El cambio de usos del suelo, sobre todo para agricultura, aparece como la principal causa de pérdida de biodiversidad.",
       "id": 5
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué herramienta incorporaban las últimas versiones de Turbo Pascal para optimizar el código?",
+      "enunciado": "¿Qué gases de efecto invernadero se destacan como principales en el apartado sobre cambio climático?",
       "opciones": [
-        "Javadoc",
-        "Turbo Profiler",
-        "JDT",
-        "Live Share"
+        "Oxígeno y nitrógeno",
+        "CO₂ y metano",
+        "Helio y argón",
+        "Ozono y vapor de agua únicamente"
       ],
       "correctas": [
         1
       ],
-      "explicacion": "El tema destaca Turbo Profiler como herramienta para optimizar el código.",
+      "explicacion": "Los apuntes destacan el CO₂ y el metano, liberados por combustibles fósiles, deforestación y procesos industriales y agrícolas.",
       "id": 6
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué enfoque introdujo Visual Basic 6 según el tema?",
+      "enunciado": "¿Cuál es una consecuencia de la sobreexplotación de los acuíferos?",
       "opciones": [
-        "Pair programming",
-        "RAD",
-        "Refactorización",
-        "Desarrollo con contenedores"
+        "Se recuperan inmediatamente tras una sequía",
+        "Aumenta automáticamente la biodiversidad",
+        "Pueden tardar décadas en recuperarse",
+        "Dejan de competir con la agricultura por el agua"
       ],
       "correctas": [
-        1
+        2
       ],
-      "explicacion": "RAD propone construir primero las interfaces y validarlas con el usuario.",
+      "explicacion": "Los acuíferos sobreexplotados pueden tardar décadas en recuperarse.",
       "id": 7
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué tecnología de acceso a bases de datos se señala como la más rápida y optimizada en Visual Basic 6?",
+      "enunciado": "¿Qué porcentaje aproximado de los plásticos se recicla en el mundo según los apuntes?",
       "opciones": [
-        "DAO",
-        "RDO",
-        "ADO",
-        "JDT"
+        "9 %",
+        "22,3 %",
+        "50 %",
+        "73 %"
       ],
       "correctas": [
-        2
+        0
       ],
-      "explicacion": "El tema señala ADO como alternativa más rápida y optimizada.",
+      "explicacion": "Los apuntes citan que solo alrededor del 9 % de los plásticos se recicla en el mundo.",
       "id": 8
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué relación existe entre Delphi y Turbo Pascal?",
+      "enunciado": "¿Qué se entiende por brecha digital?",
       "opciones": [
-        "Delphi fue la evolución de Turbo Pascal hacia Windows",
-        "Turbo Pascal fue una versión de Delphi para Linux",
-        "Ambos son plugins",
-        "Delphi sustituyó a Swift"
+        "La diferencia entre la huella ecológica y la biocapacidad",
+        "La desigualdad en el acceso a internet, dispositivos y competencias para utilizarlos",
+        "La diferencia de consumo eléctrico entre dos centros de datos",
+        "La falta de estándares comunes para medir emisiones"
       ],
       "correctas": [
-        0
+        1
       ],
-      "explicacion": "Delphi fue desarrollado por Borland como evolución de Turbo Pascal hacia Windows.",
+      "explicacion": "La brecha digital es la desigualdad en el acceso a internet, dispositivos y competencias digitales.",
       "id": 9
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Para qué sistema operativo se creó Kylix?",
+      "enunciado": "¿Qué caracteriza al modelo económico lineal descrito en la unidad?",
       "opciones": [
-        "macOS",
-        "Linux",
-        "Android",
-        "Windows exclusivamente"
+        "Reparar, reutilizar y reciclar indefinidamente",
+        "Compartir recursos sin fabricar productos",
+        "Extraer materiales, fabricar productos, utilizarlos y desecharlos",
+        "Utilizar únicamente materiales renovables"
       ],
       "correctas": [
-        1
+        2
       ],
-      "explicacion": "Kylix fue la herramienta de Borland para Linux relacionada con Delphi.",
+      "explicacion": "El modelo lineal sigue la secuencia extraer, fabricar, usar y tirar.",
       "id": 10
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿En qué lenguajes está orientado Visual C++?",
+      "enunciado": "¿Qué diferencia existe entre un riesgo físico y uno de transición para una empresa?",
       "opciones": [
-        "Java y Kotlin",
-        "Swift y Objective-C",
-        "C y C++",
-        "JavaScript y TypeScript"
+        "El físico procede de cambios legales y el de transición de fenómenos meteorológicos",
+        "El físico afecta solo a trabajadores y el de transición solo a clientes",
+        "No existe diferencia entre ambos",
+        "El físico deriva de daños directos ambientales y el de transición de cambios en leyes, precios, tecnología o preferencias"
       ],
       "correctas": [
-        2
+        3
       ],
-      "explicacion": "Visual C++ está orientado a la programación en C y C++.",
+      "explicacion": "Los riesgos físicos son daños directos por fenómenos extremos o cambios graduales; los de transición derivan de cambios hacia una economía sostenible.",
       "id": 11
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué son las MFC mencionadas en Visual C++?",
+      "enunciado": "¿Por qué alargar la vida útil de un móvil o portátil reduce su huella digital?",
       "opciones": [
-        "Bibliotecas de Windows",
-        "Un lenguaje de Apple",
-        "Un sistema de control de versiones",
-        "Un IDE online"
+        "Porque elimina el consumo eléctrico durante su uso",
+        "Porque evita parte de las emisiones y extracción de materiales asociadas a fabricar un dispositivo nuevo",
+        "Porque hace innecesarias las redes de telecomunicaciones",
+        "Porque impide que el dispositivo genere calor"
       ],
       "correctas": [
-        0
+        1
       ],
-      "explicacion": "MFC significa Microsoft Foundation Classes y son bibliotecas de Windows.",
+      "explicacion": "La fabricación concentra la mayor parte de las emisiones de un dispositivo; alargar su vida evita sustituirlo antes de tiempo.",
       "id": 12
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué herramienta de Apple se utiliza para desarrollar aplicaciones para sus dispositivos?",
+      "enunciado": "¿Qué ocurre cuando aumenta el peso de una página web?",
       "opciones": [
-        "Eclipse",
-        "Xcode",
-        "NetBeans",
-        "Replit"
+        "Se transfieren más datos y puede aumentar el tiempo de carga y el trabajo del dispositivo",
+        "Disminuye siempre el consumo energético del servidor",
+        "La página necesita menos recursos de red",
+        "Mejora automáticamente la accesibilidad"
       ],
       "correctas": [
-        1
+        0
       ],
-      "explicacion": "Xcode es la herramienta de Apple para desarrollar aplicaciones destinadas a sus dispositivos.",
+      "explicacion": "Una página más pesada transfiere más datos, exige más trabajo al dispositivo y suele tardar más en cargar.",
       "id": 13
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué lenguaje se destaca para programar con versiones actuales de Xcode?",
+      "enunciado": "¿Cuál de estas medidas puede aplicar un desarrollador para reducir el peso de una web?",
       "opciones": [
-        "Swift",
-        "Pascal",
-        "VBA",
-        "Delphi"
+        "Reproducir todos los vídeos automáticamente",
+        "Cargar todas las imágenes al abrir la página",
+        "Eliminar la caché del navegador",
+        "Optimizar imágenes y utilizar carga diferida cuando proceda"
       ],
       "correctas": [
-        0
+        3
       ],
-      "explicacion": "El tema indica que las versiones actuales de Xcode permiten programar en Swift.",
+      "explicacion": "Los apuntes recomiendan optimizar imágenes y aplicar lazy loading a imágenes y vídeos.",
       "id": 14
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿En qué sistemas está disponible Visual Studio Code?",
+      "enunciado": "¿Qué significa mitigación en el contexto de los impactos ambientales?",
       "opciones": [
-        "Solo Windows",
-        "Windows y Linux",
-        "Linux, Windows y macOS",
-        "Solo macOS"
+        "Prepararse para los daños que ya no se pueden evitar",
+        "Reducir las causas del problema, por ejemplo las emisiones",
+        "Trasladar los residuos a otro territorio",
+        "Compensar cualquier impacto sin reducirlo"
       ],
       "correctas": [
-        2
+        1
       ],
-      "explicacion": "VS Code es multiplataforma.",
+      "explicacion": "La mitigación reduce las causas del problema, como emisiones, extracción y residuos.",
       "id": 15
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué función ofrece Live Share en Visual Studio Code?",
+      "enunciado": "¿Qué significa adaptación?",
       "opciones": [
-        "Generar documentación",
-        "Colaborar en tiempo real y facilitar la programación en pareja",
-        "Analizar CPU",
-        "Gestionar memoria"
+        "Eliminar todas las actividades económicas",
+        "Reducir las causas originales del cambio climático",
+        "Prepararse para impactos que ya no se pueden evitar",
+        "Aumentar la extracción de recursos para crear infraestructuras"
       ],
       "correctas": [
-        1
+        2
       ],
-      "explicacion": "Live Share facilita la colaboración en tiempo real y el pair programming.",
+      "explicacion": "La adaptación prepara a las personas y organizaciones para impactos que ya no se pueden evitar.",
       "id": 16
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Para qué lenguajes destaca IntelliJ IDEA?",
+      "enunciado": "¿Qué ejemplo de cooperación internacional contribuyó a la recuperación de la capa de ozono?",
       "opciones": [
-        "Java y Kotlin",
-        "C y Pascal",
-        "Swift y VBA",
-        "HTML y CSS exclusivamente"
+        "El Protocolo de Montreal",
+        "El GHG Protocol",
+        "La Taxonomía de la UE",
+        "El índice IBEX ESG"
       ],
       "correctas": [
         0
       ],
-      "explicacion": "IntelliJ IDEA es muy utilizado por programadores de Java y Kotlin.",
+      "explicacion": "El Protocolo de Montreal de 1987 prohibió los gases que destruían la capa de ozono y permitió su recuperación.",
       "id": 17
     },
     {
+      "unidad": "UT1 · Retos ecosociales y huella del mundo digital",
       "tipo": "test",
-      "enunciado": "¿Qué componente destacado de Eclipse proporciona herramientas de desarrollo Java?",
+      "enunciado": "¿Por qué los retos ecosociales requieren alianzas y trabajo coordinado?",
       "opciones": [
-        "MFC",
-        "JDT",
-        "ADO",
-        "RAD"
+        "Porque afectan únicamente a las empresas multinacionales",
+        "Porque son globales, están conectados e implican a muchos actores",
+        "Porque solo pueden resolverse mediante nuevas tecnologías",
+        "Porque la ciudadanía no puede participar en su solución"
       ],
       "correctas": [
         1
       ],
-      "explicacion": "JDT significa Java Development Tools.",
+      "explicacion": "Los retos son globales, están conectados y requieren la participación de gobiernos, empresas, investigadores, organizaciones y ciudadanía.",
       "id": 18
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué característica ofrece Replit?",
+      "enunciado": "¿Qué definición de desarrollo sostenible recoge el Informe Brundtland?",
       "opciones": [
-        "Solo funciona sin conexión",
-        "Soporta más de 50 lenguajes y permite colaboración en tiempo real",
-        "Es exclusivo de iOS",
-        "No incorpora agentes"
+        "Aumentar la producción actual sin considerar sus consecuencias",
+        "Satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras",
+        "Sustituir todos los recursos naturales por recursos artificiales",
+        "Priorizar el crecimiento económico por encima de cualquier otro objetivo"
       ],
       "correctas": [
         1
       ],
-      "explicacion": "Replit es un IDE online con soporte para más de 50 lenguajes y colaboración.",
+      "explicacion": "El Informe Brundtland (1987) define el desarrollo sostenible como satisfacer las necesidades presentes sin comprometer las de las generaciones futuras.",
       "id": 19
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué caracteriza a GitHub Codespaces?",
+      "enunciado": "¿Qué caracteriza a la sostenibilidad débil?",
       "opciones": [
-        "Entorno en la nube integrado con GitHub",
-        "Compilador oficial de Java",
-        "Plugin para generar HTML",
-        "Biblioteca de Windows"
+        "Considera que ningún elemento natural puede sustituirse",
+        "Sitúa la economía dentro de la sociedad y esta dentro de la biosfera",
+        "Acepta que el capital natural puede sustituirse por capital fabricado si la riqueza total no disminuye",
+        "Rechaza cualquier forma de capital fabricado"
       ],
       "correctas": [
-        0
+        2
       ],
-      "explicacion": "Su principal ventaja es la integración directa con GitHub.",
+      "explicacion": "La sostenibilidad débil admite sustituir capital natural por capital fabricado, siempre que la riqueza total no disminuya.",
       "id": 20
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué suele caracterizar al software con licencia propietaria?",
+      "enunciado": "¿Qué idea central define la sostenibilidad fuerte?",
       "opciones": [
-        "Siempre permite modificar libremente el código",
-        "Suele distribuirse en binario y restringir el acceso al código fuente",
-        "Nunca tiene coste",
-        "Solo funciona en Linux"
+        "Una parte del capital natural no tiene sustituto y debe conservarse",
+        "La naturaleza puede sustituirse siempre por tecnología",
+        "Las dimensiones ambiental, social y económica tienen que tener idéntico valor monetario",
+        "El crecimiento económico compensa cualquier daño ambiental"
       ],
       "correctas": [
-        1
+        0
       ],
-      "explicacion": "El tema contrapone las restricciones habituales del software propietario al acceso al código de las licencias libres.",
+      "explicacion": "La sostenibilidad fuerte considera que elementos como un clima estable o la biodiversidad no tienen sustituto.",
       "id": 21
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué modelo ofrece una versión gratuita y otras funcionalidades o ediciones de pago?",
+      "enunciado": "¿Qué significa la sigla ASG?",
       "opciones": [
-        "Freemium",
-        "EPL",
-        "CDDL",
-        "GPL"
+        "Acción, Sociedad y Gestión",
+        "Ambiental, Seguridad y Globalización",
+        "Actividad, Sostenibilidad y Gobierno",
+        "Ambiental, Social y Gobernanza"
       ],
       "correctas": [
-        0
+        3
       ],
-      "explicacion": "Freemium combina una versión gratuita con opciones de pago.",
+      "explicacion": "ASG corresponde a los criterios ambiental, social y de gobernanza.",
       "id": 22
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué componente de Java incluye el compilador javac?",
+      "enunciado": "¿Qué acontecimiento de 1987 definió el concepto de desarrollo sostenible?",
       "opciones": [
-        "JRE",
-        "JVM",
-        "JDK",
-        "JDT"
+        "El Acuerdo de París",
+        "El Informe Brundtland",
+        "El Pacto Verde Europeo",
+        "El Protocolo de Kioto"
       ],
       "correctas": [
-        2
+        1
       ],
-      "explicacion": "El compilador javac forma parte del JDK.",
+      "explicacion": "El Informe Brundtland, publicado en 1987, formuló la definición más citada de desarrollo sostenible.",
       "id": 23
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué componente proporciona el entorno necesario para ejecutar programas Java?",
+      "enunciado": "¿Cuántos Objetivos de Desarrollo Sostenible incluye la Agenda 2030?",
       "opciones": [
-        "JDK",
-        "JRE",
-        "Javadoc",
-        "JDT"
+        "12",
+        "15",
+        "17",
+        "20"
       ],
       "correctas": [
-        1
+        2
       ],
-      "explicacion": "El JRE es el entorno de ejecución de Java e incluye la JVM.",
+      "explicacion": "La Agenda 2030 tiene 17 ODS, concretados en 169 metas.",
       "id": 24
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué hace la JVM?",
+      "enunciado": "¿Qué significa que la Agenda 2030 sea universal?",
       "opciones": [
-        "Genera comentarios",
-        "Ejecuta el código Java previamente compilado",
-        "Gestiona plugins",
-        "Diseña interfaces"
+        "Que solo se aplica a países en desarrollo",
+        "Que obliga únicamente a las empresas",
+        "Que se centra exclusivamente en cuestiones ambientales",
+        "Que implica a todos los países, no solo a los más pobres"
       ],
       "correctas": [
-        1
+        3
       ],
-      "explicacion": "La JVM ejecuta el código Java compilado.",
+      "explicacion": "La Agenda 2030 es universal porque todos los países deben avanzar en sus objetivos.",
       "id": 25
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué comando permite comprobar la versión de Java y datos de la máquina virtual?",
+      "enunciado": "¿Cuál es el objetivo principal del Acuerdo de París?",
       "opciones": [
-        "javac -version",
-        "java -version",
-        "git --version",
-        "gradle -install"
+        "Mantener el calentamiento muy por debajo de 2 °C y seguir esforzándose por no superar 1,5 °C",
+        "Eliminar todas las emisiones mundiales antes de 2030",
+        "Prohibir la extracción de minerales",
+        "Obligar a todos los países a utilizar la misma combinación energética"
       ],
       "correctas": [
-        1
+        0
       ],
-      "explicacion": "El tema indica java -version para consultar la versión de Java.",
+      "explicacion": "El Acuerdo de París fija el objetivo de mantener el aumento de temperatura muy por debajo de 2 °C y esforzarse por limitarlo a 1,5 °C.",
       "id": 26
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué comando permite comprobar la versión del compilador de Java?",
+      "enunciado": "¿Qué analiza el criterio ambiental (A) de ASG?",
       "opciones": [
-        "java -version",
-        "javadoc -version",
-        "javac -version",
-        "jre -version"
+        "Cómo se remunera a la dirección",
+        "El impacto de la empresa sobre el planeta, como clima, agua, recursos y residuos",
+        "Las condiciones laborales de la plantilla exclusivamente",
+        "La relación de la empresa con sus accionistas"
       ],
       "correctas": [
-        2
+        1
       ],
-      "explicacion": "javac -version muestra la versión del compilador.",
+      "explicacion": "El criterio ambiental examina lo que la empresa hace al planeta.",
       "id": 27
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué es un breakpoint?",
+      "enunciado": "¿Qué asunto pertenece principalmente al criterio social (S)?",
       "opciones": [
-        "Marca que detiene temporalmente la ejecución para inspeccionar el programa",
-        "Extensión que ordena el código",
-        "Archivo de Maven",
-        "Herramienta de documentación"
+        "El consumo eléctrico de los centros de datos",
+        "La política de remuneración de los directivos",
+        "Las condiciones laborales de trabajadores de la cadena de suministro",
+        "El control interno de la empresa"
       ],
       "correctas": [
-        0
+        2
       ],
-      "explicacion": "Un breakpoint o punto de ruptura permite detener la ejecución en una línea.",
+      "explicacion": "Las condiciones de trabajo de la plantilla y de la cadena de valor pertenecen al ámbito social.",
       "id": 28
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué es un watch durante la depuración?",
+      "enunciado": "¿Qué asunto pertenece principalmente a la gobernanza (G)?",
       "opciones": [
-        "Una licencia",
-        "Una expresión o variable cuyo valor se observa",
-        "Un compilador",
-        "Un workspace"
+        "La pérdida de biodiversidad",
+        "El consumo de agua de un servidor",
+        "La accesibilidad de una aplicación para sus usuarios",
+        "La lucha contra la corrupción y el control interno"
       ],
       "correctas": [
-        1
+        3
       ],
-      "explicacion": "Un watch permite consultar el valor de una expresión o variable.",
+      "explicacion": "La gobernanza trata de cómo se dirige y controla la empresa, incluyendo ética, corrupción y controles internos.",
       "id": 29
     },
     {
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
       "tipo": "test",
-      "enunciado": "¿Qué analiza principalmente un profiler?",
+      "enunciado": "¿Quiénes son los grupos de interés o stakeholders?",
       "opciones": [
-        "El diseño visual",
-        "El rendimiento, como CPU, memoria e hilos",
-        "Las licencias",
-        "La ortografía"
+        "Solo los accionistas de una empresa",
+        "Las personas y organizaciones que afectan a una empresa o se ven afectadas por ella",
+        "Únicamente los trabajadores con contrato indefinido",
+        "Las administraciones públicas que conceden subvenciones"
       ],
       "correctas": [
         1
       ],
-      "explicacion": "Los profilers monitorizan aspectos del rendimiento de una aplicación.",
+      "explicacion": "Los grupos de interés incluyen a quienes afectan a la actividad de la empresa o reciben sus efectos.",
       "id": 30
     },
     {
-      "tipo": "multiple",
-      "enunciado": "¿Qué elementos puede integrar un IDE?",
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
+      "tipo": "test",
+      "enunciado": "¿Qué estudia la doble materialidad?",
       "opciones": [
-        "Editor",
-        "Depurador",
-        "Constructor de interfaces gráficas",
-        "Plugins"
+        "Solo el impacto financiero de la empresa",
+        "Solo las emisiones de gases de efecto invernadero",
+        "Cómo afecta la empresa al mundo y cómo afectan los asuntos ASG a la propia empresa",
+        "La diferencia entre los beneficios y los impuestos"
       ],
       "correctas": [
-        0,
-        1,
-        2,
-        3
+        2
       ],
-      "explicacion": "El tema enumera estos elementos entre las herramientas que puede integrar un IDE.",
+      "explicacion": "La doble materialidad considera tanto la materialidad de impacto como la financiera.",
       "id": 31
     },
     {
-      "tipo": "multiple",
-      "enunciado": "¿Qué afirmaciones sobre Turbo Pascal son correctas?",
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
+      "tipo": "test",
+      "enunciado": "¿Qué alcance del GHG Protocol incluye las emisiones indirectas de la cadena de valor, como la fabricación de portátiles o los servicios en la nube?",
       "opciones": [
-        "Fue desarrollado por Borland",
-        "Apareció en 1983",
-        "Sus últimas versiones permitían trabajar con varios archivos",
-        "Incorporó Turbo Profiler"
+        "Alcance 1",
+        "Alcance 2",
+        "Alcance 3",
+        "Alcance 0"
       ],
       "correctas": [
-        0,
-        1,
-        2,
-        3
+        2
       ],
-      "explicacion": "Todas aparecen en la descripción de Turbo Pascal.",
+      "explicacion": "El alcance 3 incluye las demás emisiones indirectas de la cadena de valor.",
       "id": 32
     },
     {
-      "tipo": "multiple",
-      "enunciado": "¿Qué afirmaciones sobre Visual Basic 6 son correctas?",
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
+      "tipo": "test",
+      "enunciado": "¿Qué es el ecoblanqueo o greenwashing?",
       "opciones": [
-        "Introdujo el enfoque RAD",
-        "Permitía utilizar componentes de terceros",
-        "ADO se señala como alternativa más rápida y optimizada que DAO y RDO",
-        "Fue desarrollado por Apple"
+        "Presentar como sostenible algo que no lo es o exagerar sus beneficios ambientales",
+        "Medir las emisiones con un estándar internacional",
+        "Reducir el consumo energético de una aplicación",
+        "Publicar datos verificados sobre sostenibilidad"
       ],
       "correctas": [
-        0,
-        1,
-        2
+        0
       ],
-      "explicacion": "Visual Basic 6 se relaciona con RAD, componentes de terceros y las tecnologías DAO, RDO y ADO.",
+      "explicacion": "El ecoblanqueo consiste en presentar como sostenible algo que no lo es o exagerar sus beneficios.",
       "id": 33
     },
     {
-      "tipo": "multiple",
-      "enunciado": "¿Qué afirmaciones sobre los IDE actuales son correctas?",
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
+      "tipo": "test",
+      "enunciado": "¿Qué caracteriza a la inversión socialmente responsable (ISR)?",
       "opciones": [
-        "Xcode es la herramienta de Apple",
-        "VS Code es multiplataforma",
-        "IntelliJ IDEA se utiliza especialmente con Java y Kotlin",
-        "Eclipse es de código abierto y gratuito"
+        "Tiene en cuenta únicamente la rentabilidad a corto plazo",
+        "Invierte solo en empresas tecnológicas",
+        "Excluye siempre cualquier empresa industrial",
+        "Considera los criterios ASG además de la rentabilidad y el riesgo"
       ],
       "correctas": [
-        0,
-        1,
-        2,
         3
       ],
-      "explicacion": "Xcode, VS Code, IntelliJ IDEA y Eclipse aparecen con esas características en el tema.",
+      "explicacion": "La ISR integra criterios ambientales, sociales y de gobernanza junto con rentabilidad y riesgo.",
       "id": 34
     },
     {
-      "tipo": "multiple",
-      "enunciado": "¿Qué características de Visual Studio Code se mencionan?",
+      "unidad": "UT2 · Sostenibilidad, criterios ASG y marcos internacionales",
+      "tipo": "test",
+      "enunciado": "¿Para qué sirve la Taxonomía de la Unión Europea?",
       "opciones": [
-        "Integración con Git",
-        "Colaboración mediante Live Share",
-        "Marketplace de extensiones",
-        "Es exclusivo de macOS"
+        "Para clasificar a los trabajadores según su impacto social",
+        "Para establecer una lista de actividades económicas ambientalmente sostenibles con criterios técnicos",
+        "Para calcular exclusivamente las emisiones de alcance 3",
+        "Para sustituir los Objetivos de Desarrollo Sostenible"
       ],
       "correctas": [
-        0,
-        1,
-        2
+        1
       ],
-      "explicacion": "El tema destaca Git, Live Share y el Marketplace.",
+      "explicacion": "La Taxonomía de la UE establece qué actividades económicas se consideran ambientalmente sostenibles y con qué criterios.",
       "id": 35
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Qué afirmaciones sobre los entornos online son correctas?",
-      "opciones": [
-        "Facilitan trabajar desde distintos dispositivos",
-        "Favorecen la colaboración",
-        "Pueden tener menor potencia que una instalación local",
-        "Siempre superan en potencia a los IDE locales"
-      ],
-      "correctas": [
-        0,
-        1,
-        2
-      ],
-      "explicacion": "El tema presenta accesibilidad y colaboración como ventajas, y menor potencia como posible contrapartida.",
-      "id": 36
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Qué afirmaciones sobre licencias son correctas?",
-      "opciones": [
-        "EPL significa Eclipse Public License",
-        "CDDL se basa en la MPL según el glosario",
-        "Freemium combina versión gratuita y opciones de pago",
-        "La licencia propietaria garantiza acceso al código fuente"
-      ],
-      "correctas": [
-        0,
-        1
-      ],
-      "explicacion": "EPL y CDDL se definen en el glosario del tema.",
-      "id": 37
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Qué afirmaciones sobre JDK, JRE y JVM son correctas?",
-      "opciones": [
-        "JDK se utiliza para desarrollar aplicaciones Java",
-        "JDK incluye javac",
-        "JRE incluye la JVM",
-        "JVM genera documentación HTML"
-      ],
-      "correctas": [
-        0,
-        1
-      ],
-      "explicacion": "JDK se utiliza para desarrollar e incluye javac.",
-      "id": 38
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Qué acciones permite realizar el depurador?",
-      "opciones": [
-        "El depurador permite inspeccionar variables",
-        "Un watch permite observar valores durante la depuración",
-        "Un breakpoint genera documentación HTML",
-        "Un profiler crea interfaces gráficas"
-      ],
-      "correctas": [
-        0,
-        1
-      ],
-      "explicacion": "El depurador permite inspeccionar variables y un watch permite observar expresiones o variables.",
-      "id": 39
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Cuál de estas extensiones se menciona para Visual Studio Code?",
-      "opciones": [
-        "Python",
-        "GitHub Copilot",
-        "Prettier",
-        "Docker"
-      ],
-      "correctas": [
-        0
-      ],
-      "explicacion": "GitHub Copilot aparece en la tabla de plugins habituales de VS Code.",
-      "id": 40
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Qué herramienta genera documentación HTML a partir de comentarios especiales del código Java?",
-      "opciones": [
-        "JUnit",
-        "Javadoc",
-        "Maven",
-        "Gradle"
-      ],
-      "correctas": [
-        0
-      ],
-      "explicacion": "Javadoc genera documentación HTML a partir de comentarios especiales.",
-      "id": 41
-    },
-    {
-      "tipo": "multiple",
-      "enunciado": "¿Qué herramienta se define como herramienta de gestión y automatización de proyectos Java?",
-      "opciones": [
-        "Maven",
-        "Javadoc",
-        "JDT",
-        "MFC"
-      ],
-      "correctas": [
-        0
-      ],
-      "explicacion": "Maven se define como herramienta de gestión y automatización de proyectos Java.",
-      "id": 42
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Cómo se denomina el entorno de desarrollo integrado, según sus siglas en inglés?",
-      "criterios": [
-        [
-          "IDE"
-        ]
-      ],
-      "explicacion": "IDE significa Integrated Development Environment.",
-      "id": 43
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Qué enfoque de desarrollo se asocia a Visual Basic 6?",
-      "criterios": [
-        [
-          "RAD"
-        ]
-      ],
-      "explicacion": "Visual Basic 6 se relaciona con Rapid Application Development.",
-      "id": 44
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Cómo se llama la herramienta de Apple para desarrollar aplicaciones para sus dispositivos?",
-      "criterios": [
-        [
-          "Xcode"
-        ]
-      ],
-      "explicacion": "Xcode es la herramienta de desarrollo de Apple descrita en el tema.",
-      "id": 45
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Qué componente de Java incluye el compilador javac?",
-      "criterios": [
-        [
-          "JDK"
-        ]
-      ],
-      "explicacion": "El compilador javac forma parte del JDK.",
-      "id": 46
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Qué comando permite consultar la versión del compilador de Java?",
-      "criterios": [
-        [
-          "javac -version"
-        ]
-      ],
-      "explicacion": "El tema indica javac -version para comprobar el compilador.",
-      "id": 47
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Cómo se llama la marca que detiene temporalmente la ejecución durante la depuración?",
-      "criterios": [
-        [
-          "breakpoint"
-        ]
-      ],
-      "explicacion": "Breakpoint es el punto de ruptura usado para inspeccionar el programa.",
-      "id": 48
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Qué herramienta de Java genera documentación HTML a partir de comentarios especiales?",
-      "criterios": [
-        [
-          "Javadoc"
-        ]
-      ],
-      "explicacion": "Javadoc extrae comentarios especiales y genera páginas HTML.",
-      "id": 49
-    },
-    {
-      "tipo": "corta",
-      "enunciado": "¿Cómo se denomina la programación en pareja facilitada por Live Share?",
-      "criterios": [
-        [
-          "pair programming"
-        ]
-      ],
-      "explicacion": "Live Share facilita la colaboración en tiempo real o pair programming.",
-      "id": 50
     }
   ]
 }
